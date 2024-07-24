@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova SC", serif;
+}
+
+
+.container {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100vh;
+    width: 100%;
+}
+
+p {
+    line-height: 16px;
+    color: white;
+    font-size: 10px;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: ease 0.5s;
+}
+
+.menu ul li a:hover {
+  color: #000;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.row h1 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.col {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.desc {
+    text-align: center;
+}
+
+.btn0 {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background 0.5s ease;
+}
+
+.btn0:hover {
+    background-color: red;
+}
+
+.btn1 {
+    margin: 0 auto;
+    width: 100px;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background 0.5s ease;
+}
+
+.btn1:hover {
+    background-color: red;
+}
+
+.cards {
+    max-width: 500px;
+    margin: auto;
+}
+
+.card {
+    display: inline-block;
+    background-image: url(./images/pic-1.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ease;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+.card-header {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.card.card-1 {
+    background-image: url(./images/pic-1.png);
+  }
+  
+  .card.card-2 {
+    background-image: url(./images/pic-2.png);
+  }
+  
+  .card.card-3 {
+    background-image: url(./images/pic-3.png);
+  }
+  
+  .card.card-4 {
+    background-image: url(./images/pic-4.png);
+  }
+
+
+
+
